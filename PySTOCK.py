@@ -8,9 +8,8 @@ now = datetime.now()
 
 tickerList = userInput.split(',')
 
-
-def specialSauce(stock, pd):
-    hist = stock.history(period=pd)
+def specialSauce(stockInput, pd):
+    hist = stockInput.history(period=pd)
     print(type(hist))
 
 
